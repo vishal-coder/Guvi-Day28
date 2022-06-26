@@ -4,8 +4,7 @@ import ItemList from "./ItemList";
 import cartContext from "./CartContext";
 
 function Home() {
-  const { state } = useContext(cartContext);
-  console.log(state);
+  const { state } = useContext(cartContext); 
   return (
     <div>
       <CarouselComponent />
